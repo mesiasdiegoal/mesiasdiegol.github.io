@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta Bebestibles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Colover Tienda de Café</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index2.html">Inicio</a>
+              <a class="nav-link" href="index4.html">Carta Bebestibles</a>
+              <a class="nav-link" href="index3.html">Carta Postres</a>
+              <a class="nav-link" href="index5.html">Carta Sobre Nosotros</a>
+                <a class="nav-link" href="index6.html">Carrito de compra</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+    <header>
+        <h1>Carta bebestibles</h1>
+
+        <div class="container-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+              </svg>
+              <div class="count-products">
+                <span id="contador-productos">0</span>
+              </div>
+              <div class="container-cart-productos hidden-cart">
+                <div class="cart-producto">
+                    <div class="info-cart-producto">
+                        <span class="cantidad-producto-carrito">1
+                        </span>
+                        <p class="titulo-producto-carrito">Cafe Latte</p>
+                        <span class="precio-producto-carrito">$3690</span>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-close">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                      </svg>
+                      
+                </div>
+                <div class="cart-total">
+                    <h3>total;</h3>
+                    <span class="total-pagar">$1000</span>
+                </div>
+              </div>
+              
+        </div>
+
+    </header>
+    <div class="container-items">
+        <div class="item">
+            <figure>
+                <img src="producto.latte.jpg" alt="productoLatte">
+
+            </figure>
+            <div class="info-producto">
+                <h2>Cafe Latte</h2>
+                <p class="precio">$3.690</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="productoCapuchino.jpg" alt="productoCapuchino">
+
+            </figure>
+            <div class="info-producto">
+                <h2>Cafe Capuchino</h2>
+                <p class="precio">$3.790</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="productoExpreso.jpg" alt="productoExpreso">
+
+            </figure>
+            <div class="info-producto">
+                <h2>Cafe Expreso</h2>
+                <p class="precio">$2.890</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="productoFrappe.jpg" alt="productoFrappe">
+
+            </figure>
+            <div class="info-producto">
+                <h2>Cafe Frappe</h2>
+                <p class="precio">$4.290</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="productoCortado.jpg" alt="productoCortado">
+
+            </figure>
+            <div class="info-producto">
+                <h2>Cafe Cortado</h2>
+                <p class="precio">$2.990</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
